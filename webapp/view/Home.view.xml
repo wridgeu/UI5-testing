@@ -2,7 +2,7 @@
   displayBlock="true"
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc">
-    <Page>
+    <Page titleAlignment="Center" title="{i18n>title}" >
         <content>
         </content>
     </Page>
