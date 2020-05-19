@@ -4,7 +4,7 @@ This repository is meant to serve as example for how testing works within UI5. I
 
 ### Preview
 
-![](readme_images/Preview.png)
+![](readme_src/Preview.png)
 
 # Getting Started
 You can just clone this repository, run npm install and use the [UI5 tooling](https://github.com/SAP/ui5-tooling) to locally serve the application in order to debug/learn from it.
