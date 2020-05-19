@@ -1,8 +1,7 @@
 sap.ui.define([
   "sap/ui/core/UIComponent",
-  "sap/ui/Device",
   "com/mrb/UI5-Testing/model/models"
-], function(UIComponent, Device, models) {
+], function(UIComponent, models) {
   "use strict";
 
   return UIComponent.extend("com.mrb.UI5-Testing.Component", {
