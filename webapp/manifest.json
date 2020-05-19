@@ -28,10 +28,10 @@
   },
   "sap.ui5": {
     "rootView": {
-      "viewName": "com.mrb.UI5-Testing.view.Home",
+      "viewName": "com.mrb.UI5-Testing.view.App",
       "type": "XML",
       "async": true,
-      "id": "idAppControl"
+      "id": "rootView"
     },
     "dependencies": {
       "minUI5Version": "1.60.0",
@@ -65,14 +65,14 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "viewPath": "com.mrb.UI5-Testing.view",
-        "controlId": "idAppControl",
+        "controlId": "App",
         "controlAggregation": "pages",
         "async": true
       },
       "routes": [
         {
           "name": "RouteHome",
-          "pattern": "RouteHome",
+          "pattern": "",
           "target": [
             "TargetHome"
           ]
@@ -82,7 +82,7 @@
         "TargetHome": {
           "viewType": "XML",
           "viewLevel": 1,
-          "viewId": "idAppControl",
+          "viewId": "home",
           "viewName": "Home"
         }
       }

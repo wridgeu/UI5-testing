@@ -2,11 +2,8 @@
   displayBlock="true"
   xmlns="sap.m"
   xmlns:mvc="sap.ui.core.mvc">
-  <App id="idAppControl" >
-    <pages>
-      <Page title="{i18n>title}">
-        <content></content>
-      </Page>
-    </pages>
-  </App>
+    <Page>
+        <content>
+        </content>
+    </Page>
 </mvc:View>
