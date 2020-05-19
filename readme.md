@@ -1,4 +1,4 @@
-# UI5-Navigation-and-Routing
+# UI5-Testing
 
 This repository is meant to serve as example for how testing works within UI5. It is basically what happens when you work through the entire "Testing"-Section within the official [UI5 documentation](https://sapui5.hana.ondemand.com/#/topic/291c9121e6044ab381e0b51716f97f52).
 
