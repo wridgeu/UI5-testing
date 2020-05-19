@@ -43,4 +43,6 @@ Implemented = :white_check_mark:
 
 For more information check:
 
-* [Each Step ](https://sapui5.hana.ondemand.com/#/entity/sap.m.tutorial.testing)
+* [UI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/291c9121e6044ab381e0b51716f97f52)
+* [Getting Started](https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218.html)
+* [Each Step as Download](https://sapui5.hana.ondemand.com/#/entity/sap.m.tutorial.testing)
