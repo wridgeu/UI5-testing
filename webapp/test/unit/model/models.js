@@ -1,5 +1,5 @@
 /*global QUnit*/
-sap.ui.define(["com/mrb/UI5-Testing/model/models", "sap/ui/Device"], function (
+sap.ui.require(["com/mrb/UI5-Testing/model/models", "sap/ui/Device"], function (
   models,
   Device
 ) {

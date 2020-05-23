@@ -1,6 +1,5 @@
 /*global QUnit*/
-
-sap.ui.define(["com/mrb/UI5-Testing/model/formatter"], function (formatter) {
+sap.ui.require(["com/mrb/UI5-Testing/model/formatter"], function (formatter) {
   "use strict";
 
   QUnit.module("Number unit");
