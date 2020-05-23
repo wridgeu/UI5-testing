@@ -38,7 +38,6 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Namespace: `com.mrb`
 * Projectname: `UI5-Testing`
 
-
 # Tutorial Steps
 
 * Step 1: Overview and Testing Strategy :white_check_mark: [0ebd475](https://github.com/SAPMarco/UI5-testing/commit/0ebd475e74be1b46fe3678decf5b20a614f0e715)
