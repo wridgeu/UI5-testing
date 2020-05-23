@@ -2,10 +2,10 @@
 
 In order to get a better understanding of the `test` folder structure and it's files, consider the following overviews.
 
-## QUnit
+## Unit-Testing with QUnit
 
 ![](../../readme_src/QUnitUnittestingOverview.png)
 
-## OPA5
+## Integration-Testing with OPA5
 
 ![](../../readme_src/OPA5Overview.png)
