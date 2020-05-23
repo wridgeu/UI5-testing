@@ -42,7 +42,7 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 # Tutorial Steps
 
 * Step 1: Overview and Testing Strategy :white_check_mark: [0ebd475](https://github.com/SAPMarco/UI5-testing/commit/0ebd475e74be1b46fe3678decf5b20a614f0e715)
-* Step 2: A First Unit Test
+* Step 2: A First Unit Test :white_check_mark: [3420350](https://github.com/SAPMarco/UI5-testing/commit/3420350bada98c18491a718d893798b5ada12c66)
 * Step 3: Adding the Price Formatter
 * Step 4: Testing a New Module
 * Step 5: Adding a Flag Button
