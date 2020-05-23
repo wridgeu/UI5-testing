@@ -41,6 +41,23 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 
 # Tutorial Steps
 
+* Step 1: Overview and Testing Strategy :white_check_mark: [0ebd475](https://github.com/SAPMarco/UI5-testing/commit/0ebd475e74be1b46fe3678decf5b20a614f0e715)
+* Step 2: A First Unit Test
+* Step 3: Adding the Price Formatter
+* Step 4: Testing a New Module
+* Step 5: Adding a Flag Button
+* Step 6: A First OPA Test
+* Step 7: Changing the Table to a Growing Table
+* Step 8: Testing Navigation
+* Step 9: Adding the Post Page
+* Step 10: Test Suite and Automated Testing
+* Step 11: Testing User Input
+* Step 12: Adding a Search
+* Step 13: Testing User Interaction
+* Step 14: Adding Tabs
+* Step 15: Writing a Short Date Formatter Using TDD
+* Step 16: Adding the Date Formatter
+
 Implemented = :white_check_mark:
 
 # Additional Information
