@@ -97,6 +97,20 @@ This results in a GET-Request that looks like the following:
 http://localhost:8080/here/goes/your/serviceUrl/$metadata?sap-documentation=heading&sap-language=EN 
 ```
 
+Standard `$metadata`:
+```xml
+<Property Name="PostingDate" Type="Edm.DateTime" Precision="7" 
+   sap:label="Posting Date" /> 
+``` 
+
+Extended `$metadata?sap-documentation=heading`:
+```xml
+<Property Name="PostingDate" Type="Edm.DateTime" Precision="7" 
+   sap:label="Posting Date" sap:heading="Pstng Date"/> 
+``` 
+
+You can find additional information to the use of this parameter [here](https://help.sap.com/doc/saphelp_gateway20sp12/2.0/en-US/30/6e8c537c8fcc26e10000000a4450e5/frameset.htm).
+
 # Credits
 
 For more information check:
@@ -109,3 +123,4 @@ For more information check:
 * [Test Recorder](https://sapui5.hana.ondemand.com/#/topic/2535ef9272064cb6bd6b44e5402d531d)
 * [OPA5](https://sapui5.hana.ondemand.com/#/topic/2696ab50faad458f9b4027ec2f9b884d)
 * [QUNIT](https://sapui5.hana.ondemand.com/#/topic/09d145cd86ee4f8e9d08715f1b364c51)
+* [SAP Gateway Developer Guide](https://help.sap.com/doc/saphelp_gateway20sp12/2.0/en-US/30/6e8c537c8fcc26e10000000a4450e5/frameset.htm)
