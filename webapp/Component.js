@@ -22,6 +22,9 @@ sap.ui.define([
       // enable routing
       this.getRouter().initialize();
 
+			// allow saving values to the OData model
+			this.getModel().setDefaultBindingMode("TwoWay");
+
       // set the device model
       this.setModel(models.createDeviceModel(), "device");
     }

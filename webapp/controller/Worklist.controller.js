@@ -3,11 +3,15 @@ sap.ui.define(
     "./BaseController",
     "sap/ui/model/json/JSONModel",
     "sap/m/library",
+    '../model/FlaggedType'
   ],
-  function (BaseController, JSONModel, mobileLibrary) {
+  function (BaseController, JSONModel, mobileLibrary, FlaggedType) {
     "use strict";
 
     return BaseController.extend("com.mrb.UI5-Testing.controller.Worklist", {
+      types : {
+        flagged: new FlaggedType()
+      },
       /**
        * Called when the worklist controller is instantiated.
        * @public
