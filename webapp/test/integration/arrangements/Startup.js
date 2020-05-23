@@ -1,6 +1,6 @@
 sap.ui.define([
 	"sap/ui/test/Opa5",
-	"com/mrb/UI5-Testing//localService/mockserver",
+	"com/mrb/UI5-Testing/localService/mockserver",
 	"sap/ui/model/odata/v2/ODataModel"
 ], function(Opa5, mockserver, ODataModel) {
 	"use strict";

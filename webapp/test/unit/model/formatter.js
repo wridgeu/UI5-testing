@@ -33,8 +33,7 @@ sap.ui.require(["com/mrb/UI5-Testing/model/formatter"], function (formatter) {
   });
 
   QUnit.module("Price State");
-  
-  	// Requirements:
+  // Requirements:
 	// price < 50: Status is green (Success)
 	// price >= 50 and price < 250: Status is normal (None)
 	// price >= 250 and price < 2000: Status is orange (Warning)
