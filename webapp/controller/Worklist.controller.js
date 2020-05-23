@@ -2,10 +2,9 @@ sap.ui.define(
   [
     "./BaseController",
     "sap/ui/model/json/JSONModel",
-    "../model/formatter",
     "sap/m/library",
   ],
-  function (BaseController, JSONModel, formatter, mobileLibrary) {
+  function (BaseController, JSONModel, mobileLibrary) {
     "use strict";
 
     return BaseController.extend("com.mrb.UI5-Testing.controller.Worklist", {
