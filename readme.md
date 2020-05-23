@@ -68,7 +68,6 @@ When declaring the OData-Service as our model, we have added the parameter `meta
 
 ```json
 "sap.app": {
-    [...]
     "dataSources": {
       "mainService": {
         "uri": "/here/goes/your/serviceUrl/",
@@ -80,7 +79,6 @@ When declaring the OData-Service as our model, we have added the parameter `meta
       }
     }
   },
-[...]
 "models": {
       "": {
         "dataSource": "mainService",
