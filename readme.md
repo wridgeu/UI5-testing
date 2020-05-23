@@ -44,7 +44,7 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 1: Overview and Testing Strategy :white_check_mark: [0ebd475](https://github.com/SAPMarco/UI5-testing/commit/0ebd475e74be1b46fe3678decf5b20a614f0e715)
 * Step 2: A First Unit Test :white_check_mark: [3420350](https://github.com/SAPMarco/UI5-testing/commit/3420350bada98c18491a718d893798b5ada12c66)
 * Step 3: Adding the Price Formatter :white_check_mark: [ea435e8](https://github.com/SAPMarco/UI5-testing/commit/ea435e844cc0d7cd35007dc356c53485289ac91b)
-* Step 4: Testing a New Module
+* Step 4: Testing a New Module :white_check_mark: [486aba7](ttps://github.com/SAPMarco/UI5-testing/commit/486aba724b37bc0b66a80d15f69d5b1688c17cb1)
 * Step 5: Adding a Flag Button
 * Step 6: A First OPA Test
 * Step 7: Changing the Table to a Growing Table
