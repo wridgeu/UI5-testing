@@ -1,13 +1,13 @@
 sap.ui.define([
-  "sap/ui/test/Opa5",
-  "com/mrb/UI5-Testing/test/integration/arrangements/Startup",
-  "com/mrb/UI5-Testing/test/integration/BasicJourney"
-], function(Opa5, Startup) {
-  "use strict";
+	"sap/ui/test/Opa5",
+	"./arrangements/Startup",
+	"./WorklistJourney"
+], function (Opa5, Startup) {
+	"use strict";
 
-  Opa5.extendConfig({
-    arrangements: new Startup(),
-    pollingInterval: 1
-  });
-
+	Opa5.extendConfig({
+		arrangements: new Startup(),
+		viewNamespace: "com.mrb.UI5-Testing.view.",
+		autoWait: true
+	});
 });

@@ -1,9 +1,7 @@
-<mvc:View
-	controllerName="com.mrb.UI5-Testing.controller.App"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc"
-	displayBlock="true">
-	<Shell appWidthLimited="false" >
-		<App id="App"/>
+<mvc:View controllerName="com.mrb.UI5-Testing.controller.App" 
+	xmlns="sap.m" 
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+	<Shell appWidthLimited="false">
+		<App id="App" busy="{appView>/busy}" busyIndicatorDelay="{appView>/delay}"/>
 	</Shell>
 </mvc:View>
