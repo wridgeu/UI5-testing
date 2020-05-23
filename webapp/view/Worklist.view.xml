@@ -32,10 +32,9 @@
                         <cells>
                             <ObjectIdentifier title="{Title}"/>
                             <Text text="{Category}"/>
-                            <ObjectNumber number="{
-									path: 'Price',
-									formatter: '.formatter.numberUnit'
-								}" unit="{Currency}" />
+                            <ObjectNumber number="{path: 'Price',formatter: '.formatter.numberUnit'}" 
+                                          state="{path: 'Price',formatter: '.formatter.priceState'}" 
+                                          unit="{Currency}" />
                         </cells>
                     </ColumnListItem>
                 </items>
