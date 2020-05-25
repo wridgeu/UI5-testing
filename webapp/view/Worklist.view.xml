@@ -4,7 +4,7 @@
     xmlns:semantic="sap.m.semantic">
     <semantic:FullscreenPage id="page" title="{i18n>title}">
         <semantic:content>
-            <Table id="table" width="auto" class="sapUiResponsiveMargin" items="{
+            <Table id="table" growing="true" width="auto" class="sapUiResponsiveMargin" items="{
 					path: '/Posts',
 					sorter: {
 						path: 'Title',
