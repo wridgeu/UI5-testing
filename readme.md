@@ -47,7 +47,7 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 5: Adding a Flag Button :white_check_mark: [2d014a4](https://github.com/SAPMarco/UI5-testing/commit/2d014a4e352f17e91256aca905ac44937505223b)
 * Step 6: A First OPA Test :white_check_mark: [27b0b20](https://github.com/SAPMarco/UI5-testing/commit/27b0b20e14b5a0c79afd777e1cc85d4348d28eb4)
 * Step 7: Changing the Table to a Growing Table :white_check_mark: [020e35f](https://github.com/SAPMarco/UI5-testing/commit/020e35f4160a78f2cf3a9059a834cca0852956d0)
-* Step 8: Testing Navigation
+* Step 8: Testing Navigation :white_check_mark: [2b69492](https://github.com/SAPMarco/UI5-testing/commit/2b69492eeac6c395e595069efe658dd7f79f030a)
 * Step 9: Adding the Post Page
 * Step 10: Test Suite and Automated Testing
 * Step 11: Testing User Input
