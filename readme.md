@@ -115,6 +115,7 @@ You can find additional information to the use of this parameter [here](https://
 For more information check:
 
 * [UI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/291c9121e6044ab381e0b51716f97f52)
+* [Cookbook for OPA5](https://sapui5.hana.ondemand.com/#/topic/ce4b180d97064ad088a901b53ed48b21.html)
 * [Getting Started](https://sapui5.hana.ondemand.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218.html)
 * [Each Step as Download](https://sapui5.hana.ondemand.com/#/entity/sap.m.tutorial.testing)
 * [Test Automation](https://sapui5.hana.ondemand.com/#/topic/ae448243822448d8ba04b4784f4b09a0.html#loioae448243822448d8ba04b4784f4b09a0)
