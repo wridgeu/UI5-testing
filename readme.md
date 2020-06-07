@@ -49,7 +49,7 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 7: Changing the Table to a Growing Table :white_check_mark: [020e35f](https://github.com/SAPMarco/UI5-testing/commit/020e35f4160a78f2cf3a9059a834cca0852956d0)
 * Step 8: Testing Navigation :white_check_mark: [2b69492](https://github.com/SAPMarco/UI5-testing/commit/2b69492eeac6c395e595069efe658dd7f79f030a)
 * Step 9: Adding the Post Page :white_check_mark: [e82e3a1](https://github.com/SAPMarco/UI5-testing/commit/e82e3a15933dfbee447ee042cef9ad33b650a39b)
-* Step 10: Test Suite and Automated Testing
+* Step 10: Test Suite and Automated Testing :white_check_mark: [5836e74](https://github.com/SAPMarco/UI5-testing/commit/5836e749c56a9a57542362102ab9a4d7dfad7c21) 
 * Step 11: Testing User Input
 * Step 12: Adding a Search
 * Step 13: Testing User Interaction
