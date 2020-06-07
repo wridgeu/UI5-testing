@@ -50,7 +50,7 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 8: Testing Navigation :white_check_mark: [2b69492](https://github.com/SAPMarco/UI5-testing/commit/2b69492eeac6c395e595069efe658dd7f79f030a)
 * Step 9: Adding the Post Page :white_check_mark: [e82e3a1](https://github.com/SAPMarco/UI5-testing/commit/e82e3a15933dfbee447ee042cef9ad33b650a39b)
 * Step 10: Test Suite and Automated Testing :white_check_mark: [5836e74](https://github.com/SAPMarco/UI5-testing/commit/5836e749c56a9a57542362102ab9a4d7dfad7c21) 
-* Step 11: Testing User Input
+* Step 11: Testing User Input :white_check_mark: [ff36d79](https://github.com/SAPMarco/UI5-testing/commit/ff36d797a5952b88073ab9d7d0cc3347b0c6af3f)  
 * Step 12: Adding a Search
 * Step 13: Testing User Interaction
 * Step 14: Adding Tabs
