@@ -7,7 +7,7 @@ sap.ui.define(
     "use strict";
 
     return BaseController.extend(
-      "com.mrb.UI5-Testing.controller.App.Controller",
+      "com.mrb.UI5-Testing.controller.App",
       {
         onInit: function () {
           var oViewModel = new JSONModel({
