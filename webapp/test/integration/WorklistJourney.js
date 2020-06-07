@@ -20,7 +20,16 @@ sap.ui.define(["sap/ui/test/opaQunit", "./pages/Worklist"], function (opaTest) {
 
     // Assertions
     Then.onTheWorklistPage.theTableShouldHaveAllEntries();
-    // Cleanup
+  });
+
+  opaTest("Should be able to search for items", function(Given, When, Then){
+    //Actions
+    When.onTheWorklistPage.iSearchFor("Bear");
+
+    //Assertion
+    Then.onTheWorklistPage.theTableShouldHaveOneItem();
+
+    //Cleanup
     Then.iTeardownMyApp();
   });
 });
