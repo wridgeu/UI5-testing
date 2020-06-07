@@ -94,7 +94,12 @@
           "target": [
             "TargetHome"
           ]
-        }
+        },
+				{
+					"pattern": "Post/{postId}",
+					"name": "post",
+					"target": "post"
+				}
       ],
       "targets": {
         "TargetHome": {
@@ -102,7 +107,12 @@
           "viewLevel": 1,
           "viewId": "home",
           "viewName": "Worklist"
-        }
+        },
+				"post": {
+					"viewName": "Post",
+					"viewId": "post",
+					"viewLevel": 2
+				}
       }
     }
   }

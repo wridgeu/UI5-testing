@@ -3,14 +3,14 @@ sap.ui.define(
     "./BaseController",
     "sap/ui/model/json/JSONModel",
     "sap/m/library",
-    '../model/FlaggedType'
+    "../model/FlaggedType",
   ],
   function (BaseController, JSONModel, mobileLibrary, FlaggedType) {
     "use strict";
 
     return BaseController.extend("com.mrb.UI5-Testing.controller.Worklist", {
-      types : {
-        flagged: new FlaggedType()
+      types: {
+        flagged: new FlaggedType(),
       },
       /**
        * Called when the worklist controller is instantiated.
@@ -111,6 +111,17 @@ sap.ui.define(
           oViewModel.getProperty("/shareSendEmailSubject"),
           oViewModel.getProperty("/shareSendEmailMessage")
         );
+      },
+      /**
+       * Event handler when a table item gets pressed
+       * @param {sap.ui.base.Event} oEvent the table selectionChange event
+       * @public
+       */
+      onPress: function (oEvent) {
+        this.getRouter().navTo("post", {
+          // The source is the list item that got pressed
+          postId: oEvent.getSource().getBindingContext().getProperty("PostID"),
+        });
       },
     });
   }
