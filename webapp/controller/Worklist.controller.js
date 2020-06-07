@@ -4,8 +4,17 @@ sap.ui.define(
     "sap/ui/model/json/JSONModel",
     "sap/m/library",
     "../model/FlaggedType",
+    "sap/ui/model/Filter",
+    "sap/ui/model/FilterOperator",
   ],
-  function (BaseController, JSONModel, mobileLibrary, FlaggedType) {
+  function (
+    BaseController,
+    JSONModel,
+    mobileLibrary,
+    FlaggedType,
+    Filter,
+    FilterOperator
+  ) {
     "use strict";
 
     return BaseController.extend("com.mrb.UI5-Testing.controller.Worklist", {
@@ -50,11 +59,6 @@ sap.ui.define(
           oViewModel.setProperty("/tableBusyDelay", iOriginalBusyDelay);
         });
       },
-
-      /* =========================================================== */
-      /* event handlers                                              */
-      /* =========================================================== */
-
       /**
        * Triggered by the table's 'updateFinished' event: after new table
        * data is available, this handler method updates the table counter.
@@ -122,6 +126,20 @@ sap.ui.define(
           // The source is the list item that got pressed
           postId: oEvent.getSource().getBindingContext().getProperty("PostID"),
         });
+      },
+      
+      onFilterPosts: function (oEvent) {
+        // build filter array
+        var aFilter = [];
+        var sQuery = oEvent.getParameter("query");
+        if (sQuery) {
+          aFilter.push(new Filter("Title", FilterOperator.Contains, sQuery));
+        }
+
+        // filter binding
+        var oTable = this.byId("table");
+        var oBinding = oTable.getBinding("items");
+        oBinding.filter(aFilter);
       },
     });
   }
