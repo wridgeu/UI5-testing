@@ -31,15 +31,21 @@ sap.ui.define(
       // Assertions
       Then.onTheWorklistPage.iShouldSeeTheTable();
     });
-    opaTest("Should be on the post page again when the browser's forward button is pressed", function (Given, When, Then) {
+    opaTest(
+      "Should be on the post page again when the browser's forward button is pressed",
+      function (Given, When, Then) {
+        // Actions
+        When.onTheBrowser.iPressOnTheForwardButton();
+
+        // Assertions
+        Then.onThePostPage.theTitleShouldDisplayTheName("Jeans");
+      }
+    );
+    opaTest("Should select the statistics tab", function (Given, When, Then) {
       // Actions
-      When.onTheBrowser.iPressOnTheForwardButton();
-
+      When.onThePostPage.iPressOnTheTabWithTheKey("statistics");
       // Assertions
-      Then.onThePostPage.theTitleShouldDisplayTheName("Jeans");
-
-      // Cleanup
-      Then.iTeardownMyApp();
+      Then.onThePostPage.iShouldSeeTheViewCounter().and.iTeardownMyApp();
     });
   }
 );
