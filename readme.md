@@ -52,8 +52,8 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 10: Test Suite and Automated Testing :white_check_mark: [5836e74](https://github.com/SAPMarco/UI5-testing/commit/5836e749c56a9a57542362102ab9a4d7dfad7c21) 
 * Step 11: Testing User Input :white_check_mark: [ff36d79](https://github.com/SAPMarco/UI5-testing/commit/ff36d797a5952b88073ab9d7d0cc3347b0c6af3f)  
 * Step 12: Adding a Search :white_check_mark: [240f562](https://github.com/SAPMarco/UI5-testing/commit/240f562ab5529ab753c5c0e85fce8900122ac7b3) 
-* Step 13: Testing User Interaction
-* Step 14: Adding Tabs
+* Step 13: Testing User Interaction :white_check_mark: [6d158b9](https://github.com/SAPMarco/UI5-testing/commit/6d158b93fb4e17eb2d187736c138169f089d93dc) 
+* Step 14: Adding Tabs :white_check_mark: [e790fd2](https://github.com/SAPMarco/UI5-testing/commit/e790fd28d2167193ef4add3963ca30eed670ccb8) 
 * Step 15: Writing a Short Date Formatter Using TDD
 * Step 16: Adding the Date Formatter
 
