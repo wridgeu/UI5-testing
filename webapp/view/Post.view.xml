@@ -1,7 +1,7 @@
 <mvc:View controllerName="com.mrb.UI5-Testing.controller.Post" 
     xmlns="sap.m" 
-    xmlns:mvc="sap.ui.core.mvc"    
-    xmlns:form="sap.ui.layout.form"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:form="sap.ui.layout.form" 
     xmlns:semantic="sap.m.semantic">
     <semantic:FullscreenPage id="page" busy="{postView>/busy}" busyIndicatorDelay="0" navButtonPress=".onNavBack" showNavButton="true" title="{i18n>objectTitle}">
         <semantic:content>
@@ -16,7 +16,8 @@
                         <form:SimpleForm>
                             <form:content>
                                 <Label text="{i18n>postDateLabel}"/>
-                                <Text text="{Timestamp}"/>
+                                <Text text="{path: 'Timestamp',
+                                             formatter: '.formatter.date'}"/>
                                 <Label text="{i18n>postDescriptionLabel}"/>
                                 <Text text="{Description}"/>
                             </form:content>
