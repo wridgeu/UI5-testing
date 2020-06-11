@@ -54,8 +54,8 @@ The paths within this project are - as usual - prefixed by the `projectId` ( whi
 * Step 12: Adding a Search :white_check_mark: [240f562](https://github.com/SAPMarco/UI5-testing/commit/240f562ab5529ab753c5c0e85fce8900122ac7b3) 
 * Step 13: Testing User Interaction :white_check_mark: [6d158b9](https://github.com/SAPMarco/UI5-testing/commit/6d158b93fb4e17eb2d187736c138169f089d93dc) 
 * Step 14: Adding Tabs :white_check_mark: [e790fd2](https://github.com/SAPMarco/UI5-testing/commit/e790fd28d2167193ef4add3963ca30eed670ccb8) 
-* Step 15: Writing a Short Date Formatter Using TDD
-* Step 16: Adding the Date Formatter
+* Step 15: Writing a Short Date Formatter Using TDD :white_check_mark: [5cccb62](https://github.com/SAPMarco/UI5-testing/commit/5cccb62c7ca53e53c89202cc02c7ec0d76fdfd94) 
+* Step 16: Adding the Date Formatter :white_check_mark: [c41978e](https://github.com/SAPMarco/UI5-testing/commit/c41978e0bfb01a0867efcf680d25eee9f78f4e56)
 
 Implemented = :white_check_mark:
 
