@@ -129,7 +129,7 @@ sap.ui.define(
               },
               errorMessage: "The table does not contain one item.",
             });
-          }
+          },
         },
       },
     });
