@@ -15,6 +15,7 @@ sap.ui.require(["com/mrb/UI5-Testing/model/FlaggedType"], function (
       "The formatting conversion was correct"
     );
   });
+
   QUnit.test("Should convert other values to false", function (assert) {
     var oFlaggedType = new FlaggedType();
     // Act
@@ -32,7 +33,9 @@ sap.ui.require(["com/mrb/UI5-Testing/model/FlaggedType"], function (
       "The formatting conversion was correct"
     );
   });
+
   QUnit.module("FlaggedType - parsing");
+
   QUnit.test("Should parse false to 0", function (assert) {
     // Act
     var iParsedValue = new FlaggedType().parseValue(false);
@@ -43,6 +46,7 @@ sap.ui.require(["com/mrb/UI5-Testing/model/FlaggedType"], function (
       "The parsing conversion matched the input"
     );
   });
+  
   QUnit.test("Should parse true to 1", function (assert) {
     // Act
     var iParsedValue = new FlaggedType().parseValue(true);
