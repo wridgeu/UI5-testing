@@ -26,10 +26,7 @@ sap.ui.define(["sap/ui/test/opaQunit", "./pages/Worklist"], function (opaTest) {
     //Actions
     When.onTheWorklistPage.iSearchFor("Bear");
 
-    //Assertion
-    Then.onTheWorklistPage.theTableShouldHaveOneItem();
-
-    //Cleanup
-    Then.iTeardownMyApp();
+    //Assertion & Cleanup
+    Then.onTheWorklistPage.theTableShouldHaveOneItem().and.iTeardownMyApp();
   });
 });
