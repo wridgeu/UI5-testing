@@ -113,7 +113,7 @@ sap.ui.define(
               errorMessage: "Was not able to see the table.",
             });
           },
-          theTableHasOneItem: function () {
+          theTableShouldHaveOneItem: function () {
             return this.waitFor({
               id: sTableId,
               viewName: sViewName,
