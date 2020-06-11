@@ -81,11 +81,13 @@ When declaring the OData-Service as our model, we have added the parameter `meta
 "models": {
       "": {
         "dataSource": "mainService",
+*HIGHLIGHT START*
         "settings": {
           "metadataUrlParams": {
             "sap-documentation": "heading"
           }
         }
+*HIGHLIGHT END*
       }
     }
 ``` 
