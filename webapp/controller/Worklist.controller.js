@@ -127,7 +127,7 @@ sap.ui.define(
           postId: oEvent.getSource().getBindingContext().getProperty("PostID"),
         });
       },
-      
+
       onFilterPosts: function (oEvent) {
         // build filter array
         var aFilter = [];

@@ -1,7 +1,5 @@
 /*global QUnit*/
-sap.ui.require(["com/mrb/UI5-Testing/model/FlaggedType"], function (
-  FlaggedType
-) {
+sap.ui.require(["com/mrb/UI5-Testing/model/FlaggedType"], function (FlaggedType) {
   "use strict";
   QUnit.module("FlaggedType - formatting");
 
@@ -46,7 +44,7 @@ sap.ui.require(["com/mrb/UI5-Testing/model/FlaggedType"], function (
       "The parsing conversion matched the input"
     );
   });
-  
+
   QUnit.test("Should parse true to 1", function (assert) {
     // Act
     var iParsedValue = new FlaggedType().parseValue(true);

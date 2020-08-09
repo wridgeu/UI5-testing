@@ -40,7 +40,7 @@ sap.ui.define(
                   matchers: new Properties({
                     title: sName,
                   }),
-                  success: function (oPage) {
+                  success: function () {
                     Opa5.assert.ok(true, "was on the remembered detail page");
                   },
                   errorMessage: "The Post " + sName + " is not shown",

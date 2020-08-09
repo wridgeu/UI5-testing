@@ -20,7 +20,7 @@ sap.ui.define([
 		 * @param {object} [oOptionsParameter] init parameters for the mockserver
 		 * @returns{Promise} a promise that is resolved when the mock server has been started
 		 */
-		init : function (oOptionsParameter) {
+		init: function (oOptionsParameter) {
 			var oOptions = oOptionsParameter || {};
 
 			return new Promise(function(fnResolve, fnReject) {
@@ -47,14 +47,14 @@ sap.ui.define([
 
 					// configure mock server with the given options or a default delay of 0.5s
 					MockServer.config({
-						autoRespond : true,
-						autoRespondAfter : (oOptions.delay || oUriParameters.get("serverDelay") || 500)
+						autoRespond: true,
+						autoRespondAfter: (oOptions.delay || oUriParameters.get("serverDelay") || 500)
 					});
 
 					// simulate all requests using mock data
 					oMockServer.simulate(sMetadataUrl, {
-						sMockdataBaseUrl : sJsonFilesUrl,
-						bGenerateMissingMockData : true
+						sMockdataBaseUrl: sJsonFilesUrl,
+						bGenerateMissingMockData: true
 					});
 
 					var aRequests = oMockServer.getRequests();
@@ -107,7 +107,7 @@ sap.ui.define([
 		 * @public returns the mockserver of the app, should be used in integration tests
 		 * @returns {sap.ui.core.util.MockServer} the mockserver instance
 		 */
-		getMockServer : function () {
+		getMockServer: function () {
 			return oMockServer;
 		}
 	};
