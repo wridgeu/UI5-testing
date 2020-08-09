@@ -1,6 +1,6 @@
 {
-  "name": "UI5-Testing",
-  "version": "0.0.1",
+  "name": "ui5testing",
+  "version": "1.0.0",
   "engines": {
     "node": "12.X"
   },
