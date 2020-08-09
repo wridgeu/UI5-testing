@@ -22,8 +22,7 @@
 				<Property Name="Flagged" Nullable="false" Type="Edm.Boolean"/>
 				<NavigationProperty Name="Comments" ToRole="ToRole_PostToComment" FromRole="FromRole_PostToComment" Relationship="BULLETINBOARD.PostToComment"/>
 			</EntityType>
-
-			<EntityType Name="Category" sap:content-version="1" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+			<!-- <EntityType Name="Category" sap:content-version="1" xmlns:sap="http://www.sap.com/Protocols/SAPData">
 				<Key>
 					<PropertyRef Name="CategoryID"/>
 				</Key>
@@ -44,7 +43,7 @@
 					sap:updatable="false"/>
 				<Property MaxLength="60" Name="Date" Nullable="false" Type="Edm.DateTime" sap:creatable="false" sap:label="Date" sap:sortable="true"
 					sap:updatable="false"/>
-			</EntityType>
+			</EntityType> -->
 			<Association sap:content-version="1" Name="PostToComment" >
 				<End Type="BULLETINBOARD.Post" Multiplicity="1" Role="FromRole_PostToComment" />
 				<End Type="BULLETINBOARD.Comment" Multiplicity="*" Role="ToRole_PostToComment" />
@@ -60,7 +59,7 @@
 			<EntityContainer Name="BULLETINBOARD_ENTITIES" m:IsDefaultEntityContainer="true">
 				<EntitySet EntityType="BULLETINBOARD.Post" Name="Posts" sap:content-version="1" sap:creatable="false" sap:deletable="false"
 					sap:pageable="false" sap:updatable="false" xmlns:sap="http://www.sap.com/Protocols/SAPData"/>
-				<EntitySet EntityType="BULLETINBOARD.Category" Name="Categories" sap:content-version="1" sap:creatable="false" sap:deletable="false"
+				<!-- <EntitySet EntityType="BULLETINBOARD.Category" Name="Categories" sap:content-version="1" sap:creatable="false" sap:deletable="false"
 					sap:pageable="false" sap:updatable="false" xmlns:sap="http://www.sap.com/Protocols/SAPData"/>
 				<EntitySet EntityType="BULLETINBOARD.Comment" Name="Comments" sap:content-version="1" sap:creatable="true" sap:deletable="false"
 					sap:pageable="false" sap:updatable="false" xmlns:sap="http://www.sap.com/Protocols/SAPData"/>
@@ -68,7 +67,7 @@
 					sap:deletable="false" sap:updatable="false">
 					<End EntitySet="Posts" Role="FromRole_PostToComment"/>
 					<End EntitySet="Comments" Role="ToRole_PostToComment"/>
-				</AssociationSet>
+				</AssociationSet> -->
 			</EntityContainer>
 		</Schema>
 	</edmx:DataServices>
