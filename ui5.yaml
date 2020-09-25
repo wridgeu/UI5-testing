@@ -1,10 +1,10 @@
-specVersion: "2.0"
+specVersion: "2.2"
 metadata:
   name: UI5-Testing
 type: application
 framework:
   name: OpenUI5
-  version: 1.80.0
+  version: 1.82.0
   libraries:
     - name: sap.ui.core
     - name: sap.m
